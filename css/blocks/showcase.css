@@ -10,6 +10,45 @@
     margin-bottom: 30px;
 }
 
-.showcase .row{
+.showcase .row {
     row-gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.card__image-wrapper {
+    width: 100%;
+    padding-top: 75%; /* Aspect ratio of 4:3 */
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding-bottom: 0;
+}
+
+.card__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px
+}
+
+.card__image-wrapper:hover .card__image {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.card__info {
+    padding: 0px 20px 20px 20px;
+    text-align: center;
+}
+
+.card__title {
+    font-size: 18px;
+    margin-bottom: 10px;
 }
