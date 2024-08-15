@@ -1,0 +1,35 @@
+.btn {
+    display: inline-block;
+    transition: all 250ms ease-in-out;
+    text-align: center;
+    padding: .72em 1.33em; 
+    border-radius: 100px;
+    color: inherit;
+    border: 2px solid rgba(255, 255, 255, .5);
+    line-height: 1;
+  }
+  
+  /* Primary button variant */
+  .btn.btn--primary {
+    padding: .94em 1.9em;
+    background-color: var(--c-secondary);
+    border-color: var(--c-secondary);
+  }
+  
+  .btn.btn--primary:hover,
+  .btn.btn--primary:focus {
+    background-color: transparent;
+    color: var(--c-white);
+    border-color: currentColor;
+  }
+  
+  /* Secondary button variant */
+  .btn.btn--secondary {
+    background-color: transparent;
+  }
+  
+  .btn.btn--secondary:hover,
+  .btn.btn--secondary:focus {
+    background-color: var(--c-white);
+    color: var(--c-primary);
+  }

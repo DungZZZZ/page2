@@ -1,0 +1,32 @@
+.hero {
+    text-align: center;
+    padding: 30px 0 0;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  
+.hero__title{
+    font-size: 75px;
+    line-height: 1.2;
+    margin-bottom: 0.375em;
+    font-weight: 700;
+}
+
+.hero__subtitle {
+    display: block;
+    font-size: 25px;
+    line-height: 1.1;
+    margin-bottom: .8em;
+}
+
+.hero__body {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .hero__actions {
+    margin-top: 50px;
+  }
