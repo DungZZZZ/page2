@@ -12,6 +12,12 @@
     margin-bottom: 20px;
 }
 
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+}
+
 .team__body p {
     max-width: 600px;
     margin-bottom: 50px;
@@ -20,14 +26,17 @@
 }
 
 .team__row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    margin-top: 35px;
+    row-gap: 35px;
+}
+
+.row {
+    --columns: 3;
 }
 
 .col {
-    flex: 1 1 calc(33% - 20px);
-    max-width: calc(33% - 20px);
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
     margin-bottom: 40px;
     text-align: center;
 }
@@ -74,3 +83,4 @@
 .team-member__social-link:hover img {
     transform: scale(1.2);
 }
+
