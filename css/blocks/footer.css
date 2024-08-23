@@ -29,19 +29,19 @@
 
 .footer__menu {
     display: flex;
-    gap: 20px; /* Adjust this value to control spacing */
+    gap: 20px;
     margin-right: 20px;
 }
 
 .footer-menu {
     display: flex;
-    gap: 20px; /* Adjust this value to control spacing */
+    gap: 20px; 
     margin: 0;
 }
 
 .company-social-links {
     display: flex;
-    gap: 20px; /* Adjust this value to control spacing */
+    gap: 20px; 
 }
 
 .footer__bottom {

@@ -28,15 +28,23 @@
 .team__row {
     margin-top: 35px;
     row-gap: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.row {
+.team .row {
     --columns: 3;
+    margin-inline: -16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-start;
 }
 
 .col {
-    flex: 1 1 calc(33.33% - 20px);
-    max-width: calc(33.33% - 20px);
+    flex: 1 1 calc(33.33% - 40px);;
+    max-width: calc(33.33% - 40px);
     margin-bottom: 40px;
     text-align: center;
 }
